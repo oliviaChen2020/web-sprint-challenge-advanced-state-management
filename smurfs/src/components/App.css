@@ -1,3 +1,47 @@
 .App {
   text-align: center;
 }
+body {
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+}
+
+.list {
+  border: 3px solid white;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+  width: 80%;
+  box-shadow: 0 0 30px 4px;
+}
+
+button {
+  color: black;
+  border: white;
+  background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+}
+button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0 0 15px 4px rgba(247, 74, 20);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+input {
+  border: white;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 0 15px 4px;
+}
+h1,
+h2,
+h4 {
+  color: white;
+}
